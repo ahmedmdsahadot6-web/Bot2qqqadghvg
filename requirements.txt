@@ -2,4 +2,4 @@ aiogram
 telethon
 aiohttp
 python-dotenv
-qrcode
+pydantic-core
