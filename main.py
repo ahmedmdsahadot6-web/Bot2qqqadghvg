@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 API_ID = int(os.getenv("API_ID", "37903178"))  # আপনার my.telegram.org এর API_ID
 API_HASH = os.getenv("API_HASH", "b4d288715cf8dee6c2b048d5c94881e3")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8869783838:AAFyPZC1qLvHo0cO_hWUKfgE1ERxgIUTvd8")
-MONGO_URI = os.getenv("MONGO_URI", "your_mongodb_uri")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://gmm020819_db_user:<db_password>@cluster0.ezejfzr.mongodb.net/?appName=Cluster0")
 
 # ডাটাবেস কানেকশন
 mongo_client = MongoClient(MONGO_URI)
