@@ -1,8 +1,8 @@
 import os
 import asyncio
 import logging
-from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
+from hydrogram import Client, filters
+from hydrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 from pymongo import MongoClient
 
 # লগিং সেটআপ
