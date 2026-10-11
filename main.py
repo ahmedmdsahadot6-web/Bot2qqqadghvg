@@ -40,16 +40,11 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8869783838:AAFyPZC1qLvHo0cO_hWUKfgE1ERxgIUTvd8").strip()
 API_HASH = os.getenv("API_HASH", "b4d288715cf8dee6c2b048d5c94881e3").strip()
 
-try:
-    API_ID = int(os.getenv("API_ID", "0"))
-except ValueError:
-    API_ID = 0
+# সরাসরি API_ID যুক্ত করা হলো
+API_ID = 37903178
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN missing")
-
-if not API_ID:
-    raise RuntimeError("API_ID missing")
 
 if not API_HASH:
     raise RuntimeError("API_HASH missing")
