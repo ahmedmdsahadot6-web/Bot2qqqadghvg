@@ -1,5 +1,5 @@
-aiogram==3.13.1
-telethon==1.36.0
-aiohttp==3.10.5
-python-dotenv==1.0.1
-qrcode==8.0
+aiogram
+telethon
+aiohttp
+python-dotenv
+qrcode
